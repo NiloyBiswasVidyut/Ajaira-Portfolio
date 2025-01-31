@@ -1,0 +1,11 @@
+@media screen and (max-width: 840px){
+    .mini{
+        flex-wrap: wrap;
+    }
+    .navbar{
+        display: none;
+    }
+    section img{
+        width: 300px;
+    }
+}

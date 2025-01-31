@@ -1,0 +1,51 @@
+@import url(./main.css);
+@import url(./nav.css);
+@import url(./responsive.css);
+
+section{
+    transition: 300ms;
+}
+section:hover{
+    transition: 300ms;
+    background-color: #36373d;
+}
+section .container p{
+    font-size: 20px;
+}
+.hero-section .container h1{
+    font-size: 35px;
+    transition: 200ms;
+}
+.hero-section .container h1:hover{
+    font-size: 40px;
+    transition: 200ms;
+}
+.hero-section .container p{
+    padding-top: 2rem;
+}
+.details .container .mini{
+    padding-top: 4rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.details .container img{
+    max-width: 400px;
+    border-radius: 15px;
+    transition: 200ms;
+}
+
+.details .container h1{
+    font-size: 50px;
+    transition: 200ms;
+}
+.details .container h1:hover{
+    font-size: 60px;
+    transition: 200ms;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #3f3f42;
+}
